@@ -16,12 +16,12 @@ public class StackExpression {
     /* define operand priority */
     private static final HashMap operandPriority = new HashMap<Token.TokenType, Integer>() {
         {
-                    put(Token.TokenType.PLUS, 11);
-                    put(Token.TokenType.MINUS, 11);
-                    put(Token.TokenType.MULT, 12);
-                    put(Token.TokenType.DIV, 12);
-                    put(Token.TokenType.LPAR, 99);
-                    put(Token.TokenType.RPAR, -99);
+            put(Token.TokenType.PLUS, 11);
+            put(Token.TokenType.MINUS, 11);
+            put(Token.TokenType.MULT, 12);
+            put(Token.TokenType.DIV, 12);
+            put(Token.TokenType.LPAR, 99);
+            put(Token.TokenType.RPAR, -99);
         }
     };
 
